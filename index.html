@@ -1,0 +1,441 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- custome style sheet -->
+    <link rel="stylesheet" href="/Assets/style/main.css">
+    <!-- font awesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" integrity="sha512-PgQMlq+nqFLV4ylk1gwUOgm6CtIIXkKwaIHp/PAIWHzig/lKZSEGKEysh0TCVbHJXCLN7WetD8TFecIky75ZfQ==" crossorigin="anonymous" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+
+    <title>SKTechno | Blog</title>
+  </head>
+  <body>
+      <!-- header start -->
+      <header>
+          <div class="d-flex justify-content-center align-items-center flex-column py-5">
+              <h1 class="main_heading">SkTechno - An IT Hub</h1>
+              <p class="main_heading_para">Welcome to <span class="text-capitalize bg-dark text-white py-2 px-3"> world of Blog </span> </p>
+          </div>
+
+          <!-- the main header img -->
+          <div class="main_header_div d-flex align-items-start justify-content-center flex-column pl-5">
+              <p>SK Techno-An IT Hub</p>
+              <h2 class="animateWord">
+                  <span>This Place is</span>
+                  <div>
+                      <ul class="flip">
+                          <li>a Coding Hub.</li>
+                          <li>a Designing Hub.</li>
+                      </ul>
+                  </div>
+              </h2>
+              <button class="text-uppercase">learn more</button>
+          </div>
+      </header>
+      <!-- header end -->
+      
+      <!-- two side section -->
+      <section>
+          <div class="container-fluid">
+              <div class="row">
+                  <div class="col-xl-10 col-lg-10 col-md-11 col-11 mx-auto my-4">
+                      <div class="row">
+                          <!-- left side column -->
+                          <!-- column first -->
+                          <div class="col-lg-8 col-11  mx-auto my-3">
+                              <!-- first row of left column -->
+                              <div class="row p-2">
+                                  <!-- first blog -->
+                                  <div class="col-12 card p-4  shadow blog_left_col border-0">
+                                      <!-- card title heading -->
+                                      <div class="d-flex justify-content-center align-items-center flex-column pt-3 pb-5">
+                                          <h1 class="text-uppercase"><span>best laptop in 2020-21</span></h1>
+                                          <p class="text-capitalize blog_title"><span class="font-weight-bold">top laptops,</span> aug 12,2020</p>
+                                      </div>
+                                      <!-- card img -->
+                                      <figure class="right_side_img mb-5">
+                                          <img src="https://images.pexels.com/photos/194356/pexels-photo-194356.jpeg?cs=srgb&dl=pexels-markus-spiske-194356.jpg&fm=jpg" alt="macbook" title="macbook pro" class="img-fluid shadow" />
+                                      </figure>
+                                      <!-- card paragraph -->
+                                      <p><span class="font-weight-bold">TechnoCS - An IT Hub</span>
+                                        There's a laptop for every use case and budget. And while some consumers search for the best laptop, whether it's a gaming, best business or 2-in-1 laptop, there's also brand loyalty that comes into play. That's why every year we put the top brands on the hot seat and rate them across several categories, including reviews, design, tech support, value and innovation. 
+                                      </p>
+                                      <p>After two years in the top spot, Lenovo has been dethroned by our 2019 Best and Worst Brands winner, HP. Over the course of our testing period, the company has earned nine Editor's Choice awards for industry-leading systems like the 13-inch HP Spectre x360, HP Envy 13t and the HP Chromebook x2. The company wasn't afraid to innovate, launching the leather-clad HP Spectre Folio.</p>
+                                      <!-- card buttons -->
+                                      <div class="d-flex justify-content-between align-items-center">
+                                          <div><button class="left_btn_like" id="like_btn"><i class="fa fa-thumbs-up"></i>&nbsp;like</button></div>
+                                          <div><button class="left_btn_reply" onclick="replyBox('reply1');">Replies <badge class="bg-white text-dark p-2">01</badge> </button></div>
+                                      </div>
+                                      <!-- replies section -->
+                                      <div class="replies my-5" id="reply1" style="display: none;">
+                                          <div class="d-flex justify-content-start flex-row align-items-start card reply_card p-3 border-0">
+                                              <!-- reply-card img -->
+                                              <div class="mx-2 align-items-center reply_img">
+                                                  <img src="https://image.flaticon.com/icons/svg/3048/3048122.svg" alt="viewers" class="img-fluid" style="width: 50px; height: 50px; border-radius: 50%;" />
+                                              </div>
+                                              <!-- comments -->
+                                              <div class="reply_txt">
+                                                  <div class="blog_title">
+                                                      <span class="font-weight-bold">Shubham</span> Aug 12,2019, 7:20pm
+                                                  </div>
+                                                  <p>very useful content</p>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                                  <!-- second blog -->
+                                  <div class="col-12 card p-4 my-2 shadow blog_left_col border-0">
+                                      <!-- card title heading -->
+                                      <div class="d-flex justify-content-center align-items-center flex-column pt-3 pb-5">
+                                          <h1 class="text-uppercase"><span>latest mobile technology in 2020-21</span></h1>
+                                          <p class="text-capitalize blog_title"><span class="font-weight-bold">top technology,</span> aug 21,2020</p>
+                                      </div>
+                                      <!-- card img -->
+                                      <figure class="right_side_img mb-5">
+                                          <img src="https://images.pexels.com/photos/404280/pexels-photo-404280.jpeg?cs=srgb&dl=pexels-noah-erickson-404280.jpg&fm=jpg" alt="macbook" title="macbook pro" class="img-fluid shadow" />
+                                      </figure>
+                                      <!-- card paragraph -->
+                                      <p><span class="font-weight-bold">TechnoCS - An IT Hub</span>
+                                        There's a laptop for every use case and budget. And while some consumers search for the best laptop, whether it's a gaming, best business or 2-in-1 laptop, there's also brand loyalty that comes into play. That's why every year we put the top brands on the hot seat and rate them across several categories, including reviews, design, tech support, value and innovation. 
+                                      </p>
+                                      <p>After two years in the top spot, Lenovo has been dethroned by our 2019 Best and Worst Brands winner, HP. Over the course of our testing period, the company has earned nine Editor's Choice awards for industry-leading systems like the 13-inch HP Spectre x360, HP Envy 13t and the HP Chromebook x2. The company wasn't afraid to innovate, launching the leather-clad HP Spectre Folio.</p>
+                                      <!-- card buttons -->
+                                      <div class="d-flex justify-content-between align-items-center">
+                                          <div><button class="left_btn_like" id="like_btn"><i class="fa fa-thumbs-up"></i>&nbsp;like</button></div>
+                                          <div><button class="left_btn_reply" onclick="replyBox('reply2');">Replies <badge class="bg-white text-dark p-2">01</badge> </button></div>
+                                      </div>
+                                      <!-- replies section -->
+                                      <div class="replies my-5" id="reply2" style="display: none;">
+                                          <div class="d-flex justify-content-start flex-row align-items-start card reply_card p-3 border-0">
+                                              <!-- reply-card img -->
+                                              <div class="mx-2 align-items-center reply_img">
+                                                  <img src="https://image.flaticon.com/icons/svg/3048/3048122.svg" alt="viewers" class="img-fluid" style="width: 50px; height: 50px; border-radius: 50%;" />
+                                              </div>
+                                              <!-- comments -->
+                                              <div class="reply_txt">
+                                                  <div class="blog_title">
+                                                      <span class="font-weight-bold">Shubham</span> Aug 12,2019, 7:20pm
+                                                  </div>
+                                                  <p>very useful content</p>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                                  <!-- third blog -->
+                                  <div class="col-12 card p-4 my-2 shadow blog_left_col border-0">
+                                      <!-- card title heading -->
+                                      <div class="d-flex justify-content-center align-items-center flex-column pt-3 pb-5">
+                                          <h1 class="text-uppercase"><span>best mobile in 2020-21</span></h1>
+                                          <p class="text-capitalize blog_title"><span class="font-weight-bold">top mobiles,</span> aug 25,2020</p>
+                                      </div>
+                                      <!-- card img -->
+                                      <figure class="right_side_img mb-5">
+                                          <img src="https://images.pexels.com/photos/56904/pexels-photo-56904.jpeg?cs=srgb&dl=pexels-torsten-dettlaff-56904.jpg&fm=jpg" alt="macbook" title="macbook pro" class="img-fluid shadow" />
+                                      </figure>
+                                      <!-- card paragraph -->
+                                      <p><span class="font-weight-bold">TechnoCS - An IT Hub</span>
+                                        There's a laptop for every use case and budget. And while some consumers search for the best laptop, whether it's a gaming, best business or 2-in-1 laptop, there's also brand loyalty that comes into play. That's why every year we put the top brands on the hot seat and rate them across several categories, including reviews, design, tech support, value and innovation. 
+                                      </p>
+                                      <p>After two years in the top spot, Lenovo has been dethroned by our 2019 Best and Worst Brands winner, HP. Over the course of our testing period, the company has earned nine Editor's Choice awards for industry-leading systems like the 13-inch HP Spectre x360, HP Envy 13t and the HP Chromebook x2. The company wasn't afraid to innovate, launching the leather-clad HP Spectre Folio.</p>
+                                      <!-- card buttons -->
+                                      <div class="d-flex justify-content-between align-items-center">
+                                          <div><button class="left_btn_like" id="like_btn"><i class="fa fa-thumbs-up"></i>&nbsp;like</button></div>
+                                          <div><button class="left_btn_reply" onclick="replyBox('reply3');">Replies <badge class="bg-white text-dark p-2">01</badge> </button></div>
+                                      </div>
+                                      <!-- replies section -->
+                                      <div class="replies my-5" id="reply3" style="display: none;">
+                                          <div class="d-flex justify-content-start flex-row align-items-start card reply_card p-3 border-0">
+                                              <!-- reply-card img -->
+                                              <div class="mx-2 align-items-center reply_img">
+                                                  <img src="https://image.flaticon.com/icons/svg/3048/3048122.svg" alt="viewers" class="img-fluid" style="width: 50px; height: 50px; border-radius: 50%;" />
+                                              </div>
+                                              <!-- comments -->
+                                              <div class="reply_txt">
+                                                  <div class="blog_title">
+                                                      <span class="font-weight-bold">Shubham</span> Aug 12,2019, 7:20pm
+                                                  </div>
+                                                  <p>very useful content</p>
+                                              </div>
+                                          </div>
+                                          <div class="d-flex justify-content-start flex-row align-items-start card reply_card p-3 border-0">
+                                              <!-- reply-card img -->
+                                              <div class="mx-2 align-items-center reply_img">
+                                                  <img src="https://image.flaticon.com/icons/svg/3048/3048122.svg" alt="viewers" class="img-fluid" style="width: 50px; height: 50px; border-radius: 50%;" />
+                                              </div>
+                                              <!-- comments -->
+                                              <div class="reply_txt">
+                                                  <div class="blog_title">
+                                                      <span class="font-weight-bold">Shubham</span> Aug 12,2019, 7:20pm
+                                                  </div>
+                                                  <p>very useful content</p>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                                  <!-- fourth blog -->
+                                  <div class="col-12 card p-4 my-2 shadow blog_left_col border-0">
+                                      <!-- card title heading -->
+                                      <div class="d-flex justify-content-center align-items-center flex-column pt-3 pb-5">
+                                          <h1 class="text-uppercase"><span>best manage home app in 2020-21</span></h1>
+                                          <p class="text-capitalize blog_title"><span class="font-weight-bold">top home apps,</span> aug 28,2020</p>
+                                      </div>
+                                      <!-- card img -->
+                                      <figure class="right_side_img mb-5">
+                                          <img src="https://images.pexels.com/photos/248528/pexels-photo-248528.jpeg?cs=srgb&dl=pexels-pixabay-248528.jpg&fm=jpg" alt="macbook" title="macbook pro" class="img-fluid shadow" />
+                                      </figure>
+                                      <!-- card paragraph -->
+                                      <p><span class="font-weight-bold">TechnoCS - An IT Hub</span>
+                                        There's a laptop for every use case and budget. And while some consumers search for the best laptop, whether it's a gaming, best business or 2-in-1 laptop, there's also brand loyalty that comes into play. That's why every year we put the top brands on the hot seat and rate them across several categories, including reviews, design, tech support, value and innovation. 
+                                      </p>
+                                      <p>After two years in the top spot, Lenovo has been dethroned by our 2019 Best and Worst Brands winner, HP. Over the course of our testing period, the company has earned nine Editor's Choice awards for industry-leading systems like the 13-inch HP Spectre x360, HP Envy 13t and the HP Chromebook x2. The company wasn't afraid to innovate, launching the leather-clad HP Spectre Folio.</p>
+                                      <!-- card buttons -->
+                                      <div class="d-flex justify-content-between align-items-center">
+                                          <div><button class="left_btn_like" id="like_btn"><i class="fa fa-thumbs-up"></i>&nbsp;like</button></div>
+                                          <div><button class="left_btn_reply" onclick="replyBox('reply4');">Replies <badge class="bg-white text-dark p-2">01</badge> </button></div>
+                                      </div>
+                                      <!-- replies section -->
+                                      <div class="replies my-5" id="reply4" style="display: none;">
+                                          <div class="d-flex justify-content-start flex-row align-items-start card reply_card p-3 border-0">
+                                              <!-- reply-card img -->
+                                              <div class="mx-2 align-items-center reply_img">
+                                                  <img src="https://image.flaticon.com/icons/svg/3048/3048122.svg" alt="viewers" class="img-fluid" style="width: 50px; height: 50px; border-radius: 50%;" />
+                                              </div>
+                                              <!-- comments -->
+                                              <div class="reply_txt">
+                                                  <div class="blog_title">
+                                                      <span class="font-weight-bold">Shubham</span> Aug 12,2019, 7:20pm
+                                                  </div>
+                                                  <p>very useful content</p>
+                                              </div>
+                                          </div>
+                                          <div class="d-flex justify-content-start flex-row align-items-start card reply_card p-3 border-0">
+                                              <!-- reply-card img -->
+                                              <div class="mx-2 align-items-center reply_img">
+                                                  <img src="https://image.flaticon.com/icons/svg/3048/3048122.svg" alt="viewers" class="img-fluid" style="width: 50px; height: 50px; border-radius: 50%;" />
+                                              </div>
+                                              <!-- comments -->
+                                              <div class="reply_txt">
+                                                  <div class="blog_title">
+                                                      <span class="font-weight-bold">Shubham</span> Aug 12,2019, 7:20pm
+                                                  </div>
+                                                  <p>very useful content</p>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                          <!-- end of left column -->
+
+                          <!-- right side col ---------------->
+                          <div class="col-lg-3 col-md-7 col-11 justify-content-end m-lg-0 m-auto">
+                              <div class="row gy-5  right_col my-3 p-2">
+                                  <!-- about me part -->
+                                  <div class="col-12  about_me shadow">
+                                      <p>shubham khandal</p>
+                                      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat earum magni unde optio. Esse, corporis nemo sapiente perspiciatis vero porro quia nulla at sint quisquam? Rem velit illo molestias. Ullam!</p>
+                                  </div>
+
+                                  <!-- popular posts -->
+                                  <div class="popular_post">
+                                      <div class="right_sec_title py-4 pl-2">
+                                          <h2 class="text-capitalize">popular post</h2>
+                                      </div>
+                                      <div class="right_sub_div shadow">
+                                          <div class="row">
+                                              <div class="col-3 popular_post_img1 py-2 pl-2"></div>
+                                              <div class="col-9 text-capitalize">
+                                                  <h3>Bill gates</h3>
+                                                  <p>ceo, microsoft</p>
+                                              </div>
+                                          </div>
+                                          <div class="row">
+                                              <div class="col-3 popular_post_img1 py-2 pl-2"></div>
+                                              <div class="col-9 text-capitalize">
+                                                  <h3>jeff bezos</h3>
+                                                  <p>ceo, amazon</p>
+                                              </div>
+                                          </div>
+                                          <div class="row">
+                                              <div class="col-3 popular_post_img1 py-2 pl-2"></div>
+                                              <div class="col-9 text-capitalize">
+                                                  <h3>steve jobs</h3>
+                                                  <p>ceo, apple</p>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                                  <!-- end popular posts -->
+                                  <!-- advertise -->
+                                  <div class="right_sec">
+                                      <div class="right_sec_title py-4 pl-2">
+                                          <h2 class="text-capitalize">advertise</h2>
+                                      </div>
+                                      <div class="right_sub_div shadow">
+                                          <div class="advertise_img bg-light p-4">
+                                              <p>ads goes here!</p>
+                                          </div>
+                                      </div>
+                                  </div>
+                                  <!-- end of advertise -->
+                                  <!-- tags links -->
+                                  <div class="right_sec">
+                                      <div class="right_sec_title py-4 pl-2">
+                                          <h2 class="text-capitalize">tags</h2>
+                                      </div>
+                                      <div class="right_sub_div tags_main">
+                                          <a href="#" target="_blank" class="badge shadow text-uppercase">html5</a>
+                                          <a href="#" target="_blank" class="badge shadow text-uppercase">css3</a>
+                                          <a href="#" target="_blank" class="badge shadow text-uppercase">js</a>
+                                          <a href="#" target="_blank" class="badge shadow text-uppercase">react</a>
+                                          <a href="#" target="_blank" class="badge shadow text-uppercase">php</a>
+                                          <a href="#" target="_blank" class="badge shadow text-uppercase">python</a>
+                                          <a href="#" target="_blank" class="badge shadow text-uppercase">angular</a>
+                                      </div>
+                                  </div>
+                                  <!-- end of tags links  -->
+                                  <!-- inspire part -->
+                                  <div class="right_sec">
+                                      <div class="right_sec_title py-4 pl-2">
+                                          <h2 class="text-capitalize">inspiration</h2>
+                                      </div>
+                                      <div class="right_sub_div">
+                                          <div class="row">
+                                              <div class="col-6">
+                                                  <figure>
+                                                      <img src="https://images.pexels.com/photos/40185/mac-freelancer-macintosh-macbook-40185.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="" class="img-fluid shadow" />
+                                                  </figure>
+                                              </div>
+                                              <div class="col-6">
+                                                  <figure>
+                                                      <img src="https://images.pexels.com/photos/40185/mac-freelancer-macintosh-macbook-40185.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="" class="img-fluid shadow" />
+                                                  </figure>
+                                              </div>
+                                              <div class="col-6">
+                                                  <figure>
+                                                      <img src="https://images.pexels.com/photos/40185/mac-freelancer-macintosh-macbook-40185.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="" class="img-fluid shadow" />
+                                                  </figure>
+                                              </div>
+                                              <div class="col-6">
+                                                  <figure>
+                                                      <img src="https://images.pexels.com/photos/40185/mac-freelancer-macintosh-macbook-40185.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="" class="img-fluid shadow" />
+                                                  </figure>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                                  <!-- end of inspire part -->
+                                  <!-- folow me on social media -->
+                                  <div class="right_sec">
+                                      <div class="right_sec_title py-4 pl-2">
+                                          <h2 class="text-capitalize">follow me</h2>
+                                      </div>
+                                      <div class="right_sub_div d-flex justify-content-around shadow">
+                                          <a href="javascript:void(0)"><i class="fab fa-facebook-square fa-3x"></i></a>
+                                          <a href="javascript:void(0)"><i class="fab fa-instagram fa-3x"></i></a>
+                                          <a href="javascript:void(0)"><i class="fab fa-github-square fa-3x"></i></a>
+                                          <a href="javascript:void(0)"><i class="fab fa-twitter-square fa-3x"></i></a>
+                                          <a href="javascript:void(0)"><i class="fab fa-youtube-square fa-3x"></i></a>
+                                          <a href="javascript:void(0)"><i class="fab fa-linkedin fa-3x"></i></a>
+                                      </div>
+                                  </div>
+                                  <!-- end of follow me sec -->
+                                  <!-- subscribe newsletter -->
+                                  <div class="right_sec">
+                                      <div class="right_sec_title py-4 pl-2">
+                                          <h2 class="text-capitalize">subscribe</h2>
+                                      </div>
+                                      <div class="right_sub_div shadow">
+                                          <form>
+                                              <div class="mb-3 newsletter_form">
+                                                  <label for="newsletter_email">Enter your mail below and get notified on the latest blog posts.</label>
+                                                  <input type="email" class="form-control" id="newsletter_email" placeholder="info@example.com" required/>
+                                              </div>
+                                              <button type="submit" class="subscribe_btn d-block">Submit</button>
+                                          </form>
+                                      </div>
+                                  </div>
+                                  <!-- end of subscribe newsletter -->
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </section>
+
+      <!-- footer -->
+      <footer>
+          <p class="text-center py-4 bg-light text-capitalize">all right reserved,design by shubham khandal</p>
+      </footer>
+
+
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- <script src="/Assets/js/main.js"></script> -->
+    <!-- Popper.js first, then Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+ 
+    <!-- custom script -->
+    <script>
+        function replyBox(reponse){
+            var  response = document.getElementById(reponse);
+            console.log(response);
+            if(response.style.display == "none"){
+                response.style.display ="block";
+            } else if(response.style.display == "block"){
+                response.style.display = "none";
+            }
+        }
+
+        // like btn .........................................
+
+        const like = document.getElementById('like_btn');
+        
+        // like function
+        const sigleClick = () => {
+            like.style.fontWeight = 'bold';
+            like.style.background = '#3282b8';
+            like.style.color = '#fff';
+            like.innerHTML = "&check; Liked";
+        };
+        
+        // dislike function
+        const doubleClick = () => {
+            like.style.fontWeight = "normal";
+            like.style.background = "#bbe1fa";
+            like.style.color = "#1b262c";
+            like.innerHTML = "like"
+        };
+
+        // call the function of like btn
+
+        var clickCount = 0; // by default
+
+        like.addEventListener('click', function(){
+            clickCount++;
+            if(clickCount === 1){
+                sigleclickerTimer = setTimeout(function(){
+                    clickCount = 0;
+                    sigleClick();
+                },400);
+            }else if(clickCount === 2){
+                clearTimeout(sigleclickerTimer);
+                clickCount = 0;
+                doubleClick();
+            }
+        },false);
+
+    </script>
+  </body>
+</html>
